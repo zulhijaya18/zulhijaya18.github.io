@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kabupatens",
+  "info": {
+    "singularName": "kabupaten",
+    "pluralName": "kabupatens",
+    "displayName": "Kabupaten",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_kabupaten": {
+      "type": "string"
+    },
+    "provinsi": {
+      "type": "string"
+    },
+    "sekolahs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sekolah.sekolah",
+      "mappedBy": "kabupaten"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sekolahs",
+  "info": {
+    "singularName": "sekolah",
+    "pluralName": "sekolahs",
+    "displayName": "Sekolah",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_sekolah": {
+      "type": "string"
+    },
+    "kabupaten": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::kabupaten.kabupaten",
+      "inversedBy": "sekolahs"
+    }
+  }
+}
