@@ -17,8 +17,9 @@ jobs:
       with:
         flutter-version: '2.10.5'
     - run: |
-        cd source && flutter pub get
-        cd source && flutter build web
+        cd source
+        flutter pub get
+        flutter build web
         ls
         echo
     - uses: actions/upload-artifact@v2
