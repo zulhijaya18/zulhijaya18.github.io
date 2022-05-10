@@ -16,7 +16,8 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         flutter-version: '2.10.5'
-    - run: cd source && flutter pub get
-    - run: cd source && flutter build web
-    - run: cp -R /source/build/web /
+    - run: |
+        cd source && flutter pub get
+        cd source && flutter build web
+        cp -R /source/build/web /
     - uses: actions/upload-artifact@v2
