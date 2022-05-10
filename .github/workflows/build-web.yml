@@ -19,5 +19,5 @@ jobs:
     - run: |
         cd source && flutter pub get
         cd source && flutter build web
-        cp -R /source/build/web /
+        cp -R source/build/web /
     - uses: actions/upload-artifact@v2
