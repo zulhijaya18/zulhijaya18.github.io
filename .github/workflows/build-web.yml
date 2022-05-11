@@ -20,4 +20,4 @@ jobs:
         cd source
         flutter pub get
         flutter build web
-        cp -R source/build/web/ .
+        cp -R build/web/ ../
