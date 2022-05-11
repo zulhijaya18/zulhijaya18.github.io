@@ -21,3 +21,8 @@ jobs:
         flutter pub get
         flutter build web
         cp -R build/web/ ../
+        git config --global user.name 'zulhijaya18'
+        git config --global user.email '32.zulhijaya@gmail.com'
+        git commit -am "Automated"
+        git push
+
