@@ -17,7 +17,12 @@ jobs:
       with:
         flutter-version: '2.10.5'
     - run: |
-        cd source && flutter pub get
-        cd source && flutter build web
-        cp -R /source/build/web /
-    - uses: actions/upload-artifact@v2
+        cd source
+        flutter pub get
+        flutter build web
+        cp -R build/web/ ../
+        git config --global user.name 'zulhijaya18'
+        git config --global user.email '32.zulhijaya@gmail.com'
+        git commit -am "Automated"
+        git push
+
