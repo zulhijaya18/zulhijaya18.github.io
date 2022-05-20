@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.poppins().fontFamily,
         primarySwatch: Colors.red,
-        textTheme: GoogleFonts.poppinsTextTheme(),
+        // textTheme: GoogleFonts.poppinsTextTheme(),
       ),
       getPages: [
         GetPage(

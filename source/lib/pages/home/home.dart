@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:zulhijaya_profile/pages/home/circular_picture.dart';
 import 'package:zulhijaya_profile/pages/home/descriptions.dart';

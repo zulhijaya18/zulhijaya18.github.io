@@ -6,8 +6,8 @@ class CircularPic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width * 0.18,
-      height: MediaQuery.of(context).size.width * 0.18,
+      width: 225,
+      height: 225,
       margin: EdgeInsets.all(MediaQuery.of(context).size.width * 0.05),
       decoration: const BoxDecoration(
         shape: BoxShape.circle,
