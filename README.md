@@ -1,61 +1,49 @@
-## Print-friendly portfolio CV
+# Minimalist Portfolio Website
 
-![preview](https://github.com/user-attachments/assets/44c47034-06e4-412a-b9dd-014593b32215)
+A clean, modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and dark/light theme support.
 
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)
-![GitHub stars](https://img.shields.io/github/stars/Smilesharks/dev-portfolio)
-![GitHub issues](https://img.shields.io/github/issues/Smilesharks/dev-portfolio)
-![GitHub forks](https://img.shields.io/github/forks/Smilesharks/dev-portfolio)
-![GitHub PRs](https://img.shields.io/github/issues-pr/Smilesharks/dev-portfolio)
+> Note: This repository is a customized version of the original template. I cloned the source project and adjusted/edited several components to fit my needs while keeping the core structure intact.
 
-## 🛠️ Stack
+Original source: https://github.com/felixmacaspac/v0-minimalist-portfolio
 
-- [**Astro**](https://astro.build/) - The next-gen web framework.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with type syntax.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Dropdown menu with keyboard shortcuts made in pure JavaScript.
+## ✨ Features
 
-## 🚀 Getting Started
+- **Minimalist Design** - Clean typography with Geist font and strategic use of whitespace
+- **Responsive Layout** - Mobile-first design that works on all devices
+- **Theme Toggle** - Seamless dark/light mode switching
+- **Smooth Animations** - Subtle scroll-triggered animations and hover effects
+- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
 
-### 1. Use this Repo as an Astro Project Template
+## 🚀 Built With
 
-- I use [pnpm](https://pnpm.io/installation) as my package manager.
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [v0.dev](https://v0.dev/) - AI-powered development
 
-```bash
-# Enable pnpm on MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
-```
-
-# Initialize the project
-```bash
-pnpm create astro@latest -- --template Smilesharks/dev-portfolio
-```
-
-### 2. Add Your Content:
-
-Edit the `cv.json` file to create your own printable Portfolio/CV.
-
-### 3. Launch the Development Server:
+## 📦 Getting Started
 
 ```bash
-# Enjoy the results
+# Clone this repository
+git clone https://github.com/zulhijaya18/zulhijaya18.github.io.git
+
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
 ```
-1. Open [**http://localhost:4321**](http://localhost:4321/) in your browser to view the result 🚀
 
-### 4. Customisable colours:
-Change the data-theme of `cv.json` and choose one of the colour themes defined in theme.css, red, blue, green, cyber and default, with its variants in dark mode, or create your own.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-## 🧞 Commands
+## 🎨 Customization
 
-|     | Command         | Action                                                                       |
-| :-- | :-------------- | :--------------------------------------------------------------------------- |
-| ⚙️  | `dev` o `start` | Launches a local development server at `localhost:4321`.                   |
-| ⚙️  | `build`         | Checks for errors and creates a production build in `./dist/`. |
-| ⚙️  | `preview`       | Local preview at `localhost:4321`                                       |
+The portfolio is designed to be easily customizable:
 
+- Update personal information in `app/page.tsx`
+- Modify colors and styling in `app/globals.css`
+- Add or remove sections as needed
 
-CV JSON schema from [**jsonresume.org**](https://jsonresume.org/schema/)
+---
 
-Based on [**Bartosz Jarocki - Print-friendly, minimalist CV page**](https://github.com/BartoszJarocki/cv) and [**Miguel Ángel Durán - minimalist-portfolio-json**](https://github.com/midudev/minimalist-portfolio-json)
+**Built with ❤️ using [v0.dev](https://v0.dev) by Felix Macaspac**
