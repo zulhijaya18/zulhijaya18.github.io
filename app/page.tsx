@@ -53,7 +53,12 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-16">
+      <main className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-16 py-6 sm:py-0">
+        
+        
+      
+      
+      
         <header
           id="intro"
           ref={(el: HTMLElement | null) => {
