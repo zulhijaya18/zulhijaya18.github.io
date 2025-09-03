@@ -40,10 +40,6 @@ jobs:
       - name: Build Next.js
         run: pnpm build
 
-      # Export static site for GitHub Pages
-      - name: Export static site
-        run: pnpm exec next export
-
       # Configure GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
